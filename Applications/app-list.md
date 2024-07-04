@@ -1,5 +1,13 @@
 <h1>List of applications that I always install on my system</h1>
 
+<li>Brave Browser
+<li>Firefox Browser
+<li>VS Code
+<li>OBS-Studio
+<li>Steam
+<li>Discord
+<li>WhatsApp (Web)
+<li>Spotify
 <li>VLC Media Player
 <li>LibreOffice
 <li>TimeShift
