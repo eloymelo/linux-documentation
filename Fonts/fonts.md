@@ -66,9 +66,3 @@
 3. Ctrl + O to save it and then Ctrl + X to close the nano editor.
 
 4. Enjoy.
-
-<p>PS: go to the desired distro folder for detailed explanation.</p> 
-
-<li>Arch
-<li>Debian
-<li>Fedora
