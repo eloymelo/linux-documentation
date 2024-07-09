@@ -49,7 +49,7 @@
     
     Antialiasing
 
-        Standard (grayscale)
+        Subpixel (for LCD screens)
 
 
 
