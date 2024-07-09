@@ -22,3 +22,5 @@ Now follow theses steps:
         QT_QPA_PLATFORM=xcb
 
 3. Log out of the session or restart the machine.
+
+4. Done
