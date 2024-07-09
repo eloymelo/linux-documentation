@@ -37,3 +37,6 @@
 <li>Grub Customizer
 <li>Microsoft Teams
 <li>ProtonVPN
+<li>Zoom
+<li>Audacity
+<li>iCloud (Web App)
