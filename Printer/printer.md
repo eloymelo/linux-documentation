@@ -20,4 +20,4 @@
     
     then “Administration”, “Add Printer”, select the printer that you have on your network (mine is the L355) and then it will pop up a list of printers. You can select the printer the best suits you. In my case is the Epson L405 or L455 (preferentially the L405).
 
-3. Enjoy
+3. Done
