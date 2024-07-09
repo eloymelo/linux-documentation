@@ -65,4 +65,4 @@
 
 3. Ctrl + O to save it and then Ctrl + X to close the nano editor.
 
-4. Be happy ((:
+4. Done
