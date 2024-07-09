@@ -70,5 +70,5 @@ First you'll have to edit the system.conf and change the default value from 90s 
 
 8. Fix broken QT application theme
 
-Just follow the steps that I have already cover here.
+Just follow the steps that I have already covered here under the GNOME documentation.
 
