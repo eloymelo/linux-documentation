@@ -2,7 +2,7 @@
 
 1. Make DNF faster by add theses lines in /etc/dnf/dnf.conf
 
-        DNF Config
+        #DNF Config
         fastestmirror=True
         max_parallel_downloads=10
         defaultyes=True
@@ -12,7 +12,7 @@
 
         sudo dnf update
 
-3.Enable RPM Fusion
+3. Enable RPM Fusion
 
         https://rpmfusion.org/Configuration
 
