@@ -45,7 +45,7 @@
     
     Rendering (Hinting)
         
-        None
+        Slight
     
     Antialiasing
 
