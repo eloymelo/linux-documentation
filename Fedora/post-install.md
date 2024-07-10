@@ -1,22 +1,27 @@
-DNF Config
-fastestmirror=True
-max_parallel_downloads=10
-defaultyes=True
-keepcache=True
+<h1>A couple of tweaks for a fresh Fedora install</h1>
 
-Clear Cache: sudo dnf clean dbcache OR dnf clean all
+1. Make DNF faster by add theses lines in /etc/dnf/dnf.conf
 
+        DNF Config
+        fastestmirror=True
+        max_parallel_downloads=10
+        defaultyes=True
+        keepcache=True
 
-sudo dnf update
+2. Update your system
 
-Enable RPM Fusion
-https://rpmfusion.org/Configuration
+        sudo dnf update
 
-4. Adding Flatpaks
+3.Enable RPM Fusion
 
-https://flatpak.org/setup/Fedora
+        https://rpmfusion.org/Configuration
 
-Change Hostname
-sudo hostnamectl set-hostname "New_Custom_Name"
+4. Enable Flatpaks
+
+        https://flatpak.org/setup/Fedora
+
+5. Change Hostname of the machine
+
+        sudo hostnamectl set-hostname "New_Custom_Name"
 
 
