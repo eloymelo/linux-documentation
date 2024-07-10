@@ -40,3 +40,7 @@
 <li>Zoom
 <li>Audacity
 <li>iCloud (Web App)
+<li>Audacity
+<li>Vorta Backup
+<li>Geary
+<li>Signal
