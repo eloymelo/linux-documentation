@@ -44,3 +44,6 @@
 <li>Vorta Backup
 <li>Geary
 <li>Signal
+<li>G-Overlay
+<li>MusicBrainz Picard
+<li>Lollypop
