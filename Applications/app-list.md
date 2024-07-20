@@ -1,4 +1,4 @@
-<h1>List of applications that I always install on my system</h1>
+# List of applications that I always install on my system
 
 <li>Brave Browser
 <li>Firefox Browser
