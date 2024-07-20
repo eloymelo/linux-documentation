@@ -1,17 +1,5 @@
 <h1>Simple fix for the broken QT apps theming on GNOME</h1>
 
-First run this command in order to install qt5-style-plugins.
-
-Debian:
-
-        sudo apt install qt5-style-plugins
-
-Arch:
-
-        sudo pacman -S qt5-styleplugins
-
-Now follow theses steps:
-
 1. Open terminal and type the following
 
         sudo nano /etc/environment
@@ -24,3 +12,15 @@ Now follow theses steps:
 3. Log out of the session or restart the machine.
 
 4. Done
+
+<h3>(Optional)</h3> 
+
+Run this command in order to isntall "qt5-style-plugins" if you're still facing problems:
+
+Debian:
+
+        sudo apt install qt5-style-plugins
+
+Arch:
+
+        sudo pacman -S qt5-styleplugins
