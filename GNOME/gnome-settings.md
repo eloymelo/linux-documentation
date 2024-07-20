@@ -22,6 +22,10 @@ If I am not mistaken, the default value of the step is 6% and I don't like, it i
 
 1. Open the terminal and set the desired value (I like to set at 3%)
 
-        gsettings set org.gnome.desktop.sound volume-step 3
+        gsettings set org.gnome.settings-daemon.plugins.media-keys volume-step 3
 
-2. Enjoy
+2. Check if the changes were applied by running this command:
+
+        gsettings get org.gnome.settings-daemon.plugins.media-keys volume-step
+
+3. Done
