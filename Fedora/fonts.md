@@ -12,6 +12,6 @@ sudo dnf install fontconfig-font-replacements -y
 ```bash
 sudo dnf install fontconfig-enhanced-defaults -y
 ```
-4. Log out and log in again or restart computer to see the effect
+4. Log out and log in again or restart computer so the changes can take effect.
 
 Source: https://copr.fedorainfracloud.org/coprs/chriscowleyunix/better_fonts/
