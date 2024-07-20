@@ -64,7 +64,7 @@ First you'll have to edit the system.conf and change the default value from 90s 
         sudo nano /etc/systemd/system.conf
         DefaultTimeoutStopSec=15s
 
-9. Remove all pre-installed GNOME games. Run:
+8. Remove all pre-installed GNOME games. Run:
 
         sudo apt purge iagno lightsoff four-in-a-row gnome-robots pegsolitaire gnome-2048 hitori gnome-klotski gnome-mines gnome-mahjongg gnome-sudoku quadrapassel swell-foop gnome-tetravex gnome-taquin aisleriot gnome-chess five-or-more gnome-nibbles tali ; sudo apt autoremove
 
@@ -72,14 +72,14 @@ Or just run:
 
         sudo apt purge gnome-games
 
-8. Fix broken QT application theme
+9. Fix broken QT application theme
 
 Just follow the steps that I have already covered here under the [GNOME documentation](https://github.com/eloymelo/linux-documentation/blob/main/GNOME/gnome-fix-qtapps.md).
 
-9. I also recommend follow the fonts configuration guide in order to make your fonts look better and to install microsoft fonts (it is needed for some applications and websites to work properly)
+10. I also recommend follow the fonts configuration guide in order to make your fonts look better and to install microsoft fonts (it is needed for some applications and websites to work properly)
 
 [Click here to go direct to the guide](https://github.com/eloymelo/linux-documentation/blob/main/Debian/fonts-configuration.md)
 
-10. Set up firewall:
+11. Set up firewall:
 
 [You can follow the steps here](https://github.com/eloymelo/linux-documentation/blob/main/Firewall/firewall-settings.md)
