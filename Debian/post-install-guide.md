@@ -78,4 +78,4 @@ Just follow the steps that I have already covered here under the GNOME documenta
 
 9. I also recommend follow the fonts configuration guide in order to make your fonts look better and to install microsoft fonts (it is needed for some applications and websites to work properly)
 
-[Click here to go direct to the guide](Debian/fonts-configuration.md)
+[Click here to go direct to the guide](https://github.com/eloymelo/linux-documentation/blob/main/Debian/fonts-configuration.md)
