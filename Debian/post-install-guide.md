@@ -74,7 +74,7 @@ Or just run:
 
 9. Fix broken QT application theme
 
-Just follow the steps that I have already covered here under the [GNOME documentation](https://github.com/eloymelo/linux-documentation/blob/main/GNOME/gnome-fix-qtapps.md).
+Just follow the steps that I have already covered here under the [GNOME documentation](https://github.com/eloymelo/linux-documentation/tree/main/GNOME).
 
 10. I also recommend follow the fonts configuration guide in order to make your fonts look better and to install microsoft fonts (it is needed for some applications and websites to work properly)
 
