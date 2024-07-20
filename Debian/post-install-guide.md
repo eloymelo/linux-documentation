@@ -1,85 +1,116 @@
-<h1>A couple of tweaks to apply after installing Debian stable</h1>
+# A Couple of Tweaks to Apply After Installing Debian Stable
 
-1. Enable contrib and non-free sources.
+1. **Enable contrib and non-free sources**
 
-    Using terminal, edit the following file: <b>/etc/apt/sources.list</b> and add the "contrib" and "non-free" or replace with theses lines:
+    Using the terminal, edit the following file: **/etc/apt/sources.list** and add the "contrib" and "non-free" sources, or replace with these lines:
 
-        deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware 
-        deb-src http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
+    ```plaintext
+    deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
+    deb-src http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
 
-        deb http://deb.debian.org/debian-security/ bookworm-security main contrib non-free non-free-firmware
-        deb-src http://deb.debian.org/debian-security/ bookworm-security main contrib non-free non-free-firmware
+    deb http://deb.debian.org/debian-security/ bookworm-security main contrib non-free non-free-firmware
+    deb-src http://deb.debian.org/debian-security/ bookworm-security main contrib non-free non-free-firmware
 
-        deb http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
-        deb-src http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
+    deb http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
+    deb-src http://deb.debian.org/debian bookworm-updates main contrib non-free non-free-firmware
+    ```
 
-2. Enable bookworm backports.
+2. **Enable bookworm backports**
 
-    Again, using the terminal, edit the file in: <b>/etc/apt/sources.list</b> and add the following:
+    Again, using the terminal, edit the file **/etc/apt/sources.list** and add the following lines:
 
-        # bookworm-backports
-        deb http://deb.debian.org/debian bookworm-backports main contrib non-free
-        deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free 
+    ```plaintext
+    # bookworm-backports
+    deb http://deb.debian.org/debian bookworm-backports main contrib non-free
+    deb-src http://deb.debian.org/debian bookworm-backports main contrib non-free
+    ```
 
-3. Update the package manager.
+3. **Update the package manager**
 
-        sudo apt update
+    ```bash
+    sudo apt update
+    ```
 
-4. Enable 32bit packages.
+4. **Enable 32bit packages**
 
-        sudo dpkg --add-architecture i386 && sudo apt update
+    ```bash
+    sudo dpkg --add-architecture i386 && sudo apt update
+    ```
 
-5. Enable flatpak support.
+5. **Enable Flatpak support**
 
-        sudo apt install flatpak
-        sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    ```bash
+    sudo apt install flatpak
+    sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    ```
 
-6. Install and configure Virtual Manager
+6. **Install and configure Virtual Manager**
 
-        sudo apt install qemu-system libvirt-daemon-system virt-manager
+    ```bash
+    sudo apt install qemu-system libvirt-daemon-system virt-manager
+    ```
 
-Using nano go to <b>/etc/libvirt/libvirtd.conf</b>. Inside of libvirtd.conf will have to enable these two lines:
+    Using `nano`, go to **/etc/libvirt/libvirtd.conf**. Inside `libvirtd.conf`, enable these two lines:
 
-        unix_sock_group = "libvirt"
-        unix_sock_rw_perms = "0770"
+    ```plaintext
+    unix_sock_group = "libvirt"
+    unix_sock_rw_perms = "0770"
+    ```
 
-Start and enable the libvirtd service.
+    Start and enable the libvirtd service:
 
-        sudo systemctl start libvirtd
-        sudo systemctl enable libvirtd
+    ```bash
+    sudo systemctl start libvirtd
+    sudo systemctl enable libvirtd
+    ```
 
-Add your user to the libvirt group by typing this command:
+    Add your user to the libvirt group by typing this command:
 
-        sudo usermod -a -G libvirt $(whoami)
+    ```bash
+    sudo usermod -a -G libvirt $(whoami)
+    ```
 
-And at last, start default network and enable autostart
+    Start the default network and enable autostart:
 
-        sudo virsh net-start default
-        sudo virsh net-autostart --network default
+    ```bash
+    sudo virsh net-start default
+    sudo virsh net-autostart --network default
+    ```
 
-7. Fix slow shutdown
+7. **Fix slow shutdown**
 
-First you'll have to edit the system.conf and change the default value from 90s to 15s (or 10s):
+    Edit `system.conf` and change the default value from 90s to 15s (or 10s):
 
-        sudo nano /etc/systemd/system.conf
-        DefaultTimeoutStopSec=15s
+    ```bash
+    sudo nano /etc/systemd/system.conf
+    DefaultTimeoutStopSec=15s
+    ```
 
-8. Remove all pre-installed GNOME games. Run:
+8. **Remove all pre-installed GNOME games**
 
-        sudo apt purge iagno lightsoff four-in-a-row gnome-robots pegsolitaire gnome-2048 hitori gnome-klotski gnome-mines gnome-mahjongg gnome-sudoku quadrapassel swell-foop gnome-tetravex gnome-taquin aisleriot gnome-chess five-or-more gnome-nibbles tali ; sudo apt autoremove
+    Run:
 
-Or just run:
+    ```bash
+    sudo apt purge iagno lightsoff four-in-a-row gnome-robots pegsolitaire gnome-2048 hitori gnome-klotski gnome-mines gnome-mahjongg gnome-sudoku quadrapassel swell-foop gnome-tetravex gnome-taquin aisleriot gnome-chess five-or-more gnome-nibbles tali
+    sudo apt autoremove
+    ```
 
-        sudo apt purge gnome-games
+    Or just run:
 
-9. Fix broken QT application theme
+    ```bash
+    sudo apt purge gnome-games
+    ```
 
-Just follow the steps that I have already covered here under the [GNOME documentation](https://github.com/eloymelo/linux-documentation/tree/main/GNOME).
+9. **Fix broken QT application theme**
 
-10. I also recommend follow the fonts configuration guide in order to make your fonts look better and to install microsoft fonts (it is needed for some applications and websites to work properly)
+    Follow the steps covered under the [GNOME documentation](https://github.com/eloymelo/linux-documentation/tree/main/GNOME).
 
-[Click here to go direct to the guide](https://github.com/eloymelo/linux-documentation/blob/main/Debian/fonts-configuration.md)
+10. **Fonts configuration guide**
 
-11. Set up firewall:
+    Follow the fonts configuration guide to make your fonts look better and to install Microsoft fonts (needed for some applications and websites to work properly):
 
-[You can follow the steps here](https://github.com/eloymelo/linux-documentation/blob/main/Firewall/firewall-settings.md)
+    [Click here to go direct to the guide](https://github.com/eloymelo/linux-documentation/blob/main/Debian/fonts-configuration.md)
+
+11. **Set up firewall**
+
+    Follow the steps [here](https://github.com/eloymelo/linux-documentation/blob/main/Firewall/firewall-settings.md)
