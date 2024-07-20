@@ -79,3 +79,7 @@ Just follow the steps that I have already covered here under the [GNOME document
 9. I also recommend follow the fonts configuration guide in order to make your fonts look better and to install microsoft fonts (it is needed for some applications and websites to work properly)
 
 [Click here to go direct to the guide](https://github.com/eloymelo/linux-documentation/blob/main/Debian/fonts-configuration.md)
+
+10. Set up firewall:
+
+[You can follow the steps here](https://github.com/eloymelo/linux-documentation/blob/main/Firewall/firewall-settings.md)
