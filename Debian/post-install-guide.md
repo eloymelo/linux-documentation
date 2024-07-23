@@ -1,4 +1,4 @@
-# A Couple of Tweaks to Apply After Installing Debian Stable
+# A Couple of tweaks to apply after installing debian stable
 
 1. **Enable contrib and non-free sources**
 
