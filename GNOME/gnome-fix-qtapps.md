@@ -6,7 +6,7 @@ sudo nano /etc/environment
 ```
 2. Then add these lines
 ```plaintext
-# fix for GTK broken themes
+# fix for QT broken themes
 QT_QPA_PLATFORM=xcb
 ```
 3. Log out of the session or restart the machine.
