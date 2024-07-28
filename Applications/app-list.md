@@ -46,4 +46,5 @@
 <li>Signal
 <li>G-Overlay
 <li>MusicBrainz Picard
-<li>Lollypop
+<li>OpenRGB
+<li>Piper
