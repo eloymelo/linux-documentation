@@ -42,11 +42,11 @@ Interface Text: Ubuntu
 Document Text: Ubuntu
 Monospace Text: Monospace
     
-Rendering (Hinting)
+Rendering (Hinting):
         
 Slight
-    
-Antialiasing
+
+Antialiasing:
 
 Subpixel (for LCD screens)
 ```
