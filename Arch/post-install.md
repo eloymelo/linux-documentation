@@ -12,13 +12,13 @@ sudo pacman -Syu
 sudo pacman -S nano git 
 ```
 
-3. Open **/etc/pacman.conf** and make the following changes in order improve the overall experience.
+3. Open **/etc/pacman.conf** and make the following changes in order to improve the overall experience.
 
 ```bash
 sudo nano /etc/pacman.conf
 ```
 
-4. Remove the "#" from "Color" and "ParallelDownloads". 
+4. Remove the **#** from **Color** and **ParallelDownloads**. 
 
 ```plaintext
 # Misc options
@@ -35,25 +35,27 @@ ParallelDownloads = 5
 sudo pacman -Sy
 ```
 
-6. Install "reflector" so you can get the most up-to-date mirrors. You can also choose the mirrors by country if you want.
+6. Install **reflector** so you can get the most up-to-date mirrors. You can also choose the mirrors by country if you want.
 
 ```bash
 sudo pacman -S reflector
 ```
 
-Create a backup of the "mirrorlist" file.
+Create a backup of the **mirrorlist** file.
 
 ```bash
 sudo cp /etc/pacman.d/mirrorlist /etc/pacman.d/mirrorlist.bak
 ```
 
-Run this command to get top 10 fastest servers and to also add them to the "mirrorlist".
+Run this command to get top 10 fastest servers and to also add them to the **mirrorlist**.
 
 ```bash
 sudo reflector --verbose --download-timeout 20 --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 ```
 
-You can also set by the country adding the "--country" argument.
+You can also set by the country adding the **--country "name-of-the-country"** argument.
+
+e.g.: --country "Brazil"
 
 ```bash
 sudo reflector --verbose --country "Brazil" --download-timeout 20 --latest 10 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
@@ -146,7 +148,7 @@ Flatpak:
 sudo pacman -S flatpak
 ```
 
-11. Install "Preload".
+11. Install **Preload**.
 
 ```bash
 yay -S preload
@@ -164,7 +166,7 @@ You can check the size of your package cache by running this command:
 du -sh /var/cache/pacman/pkg/
 ```
 
-To install "paccache", run: 
+To install **paccache**, run: 
 
 ```bash
 sudo systemctl enable paccache.timer
