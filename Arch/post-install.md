@@ -87,7 +87,7 @@ sudo pacman -S xdg-user-dirs
 xdg-user-dirs-update
 ```
 
-8. Install some important tools.
+9. Install some important tools.
 
 ```bash
 sudo pacman -S p7zip unrar tar rsync git neofetch htop exfat-utils fuse-exfat ntfs-3g flac jasper aria2  
@@ -123,7 +123,7 @@ Update grub:
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-9. Install yay and flatpak:
+10. Install yay and flatpak:
 
 Yay:
 
@@ -146,7 +146,7 @@ Flatpak:
 sudo pacman -S flatpak
 ```
 
-10. Install "Preload".
+11. Install "Preload".
 
 ```bash
 yay -S preload
@@ -156,7 +156,7 @@ yay -S preload
 sudo systemctl enable preload && sudo systemctl start preload
 ```
 
-11. Install "paccache" to automatically clean package cache.
+12. Install "paccache" to automatically clean package cache.
 
 You can check the size of your package cache by running this command:
 
@@ -169,3 +169,17 @@ To install "paccache", run:
 ```bash
 sudo systemctl enable paccache.timer
 ```
+
+13. Install essential packages.
+
+```bash
+sudo pacman -S enchant mythes-en ttf-liberation hunspell-en_US ttf-bitstream-vera pkgstats adobe-source-sans-pro-fonts gst-plugins-good ttf-droid ttf-dejavu aspell-en icedtea-web gst-libav ttf-ubuntu-font-family ttf-anonymous-pro jre8-openjdk languagetool libmythes 
+```
+
+14. Set up the firewall.
+
+Click [here](https://github.com/eloymelo/linux-documentation/blob/main/Firewall/firewall-settings.md) and follow the steps.
+
+15. Make the fonts look better.
+
+Click [here](https://github.com/eloymelo/linux-documentation/blob/main/Fonts/fonts.md) and follow the steps.
