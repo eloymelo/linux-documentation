@@ -2,6 +2,13 @@
 
 1. Install the Microsoft Fonts.
 
+Arch based (choose one of the following):
+```bash
+yay -S ttf-ms-fonts 
+yay -S ttf-ms-win11-auto
+yay -S ttf-ms-win10-auto
+```
+
 Debian based:
 ```bash    
 sudo apt install ttf-mscorefonts-installer -y
@@ -12,12 +19,6 @@ sudo dnf install curl cabextract xorg-x11-font-utils fontconfig -y
 ```
 ```bash
 sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
-```
-Arch based (Choose one of the following):
-```bash
-yay -S ttf-ms-fonts 
-yay -S ttf-ms-win11-auto
-yay -S ttf-ms-win10-auto
 ```
 
 # Using Ubuntu fonts
