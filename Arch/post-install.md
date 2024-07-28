@@ -158,7 +158,7 @@ yay -S preload
 sudo systemctl enable preload && sudo systemctl start preload
 ```
 
-12. Install "paccache" to automatically clean package cache.
+12. Install **paccache** to automatically clean package cache.
 
 You can check the size of your package cache by running this command:
 
