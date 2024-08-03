@@ -169,6 +169,12 @@ du -sh /var/cache/pacman/pkg/
 To install **paccache**, run: 
 
 ```bash
+sudo pacman -S pacman-contrib
+```
+
+Enable the service:
+
+```bash
 sudo systemctl enable paccache.timer
 ```
 
