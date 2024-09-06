@@ -41,7 +41,12 @@
 
     ```bash
     sudo apt install flatpak
+    ```
+    ```bash
     sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    ```
+    ```bash
+    sudo apt install gnome-software-plugin-flatpak
     ```
 
 6. **Install and configure Virtual Manager**
@@ -50,7 +55,11 @@
     sudo apt install qemu-system libvirt-daemon-system virt-manager
     ```
 
-    Using `nano`, go to **/etc/libvirt/libvirtd.conf**. Inside `libvirtd.conf`, enable these two lines:
+    Using `nano`, open `libvirtd.conf` and enable these two lines:
+
+    ```bash
+    sudo nano /etc/libvirt/libvirtd.conf
+    ```
 
     ```plaintext
     unix_sock_group = "libvirt"
@@ -83,8 +92,10 @@
 
     ```bash
     sudo nano /etc/systemd/system.conf
-    DefaultTimeoutStopSec=15s
     ```
+    ```plaintext
+    DefaultTimeoutStopSec=15s
+     ```
 
 8. **Remove all pre-installed GNOME games**
 
