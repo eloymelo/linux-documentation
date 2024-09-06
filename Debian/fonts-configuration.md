@@ -5,7 +5,12 @@
 sudo apt install ttf-mscorefonts-installer -y
 ```
 
-2. Open or create the **fonts.conf** file under **~/.config/fontconfig/fonts.conf** and paste this setting:
+2. Open or create the **fonts.conf** file:
+
+```bash
+sudo nano ~/.config/fontconfig/fonts.conf
+```
+now paste this setting:
 
 ```plaintext
 <?xml version='1.0'?>
