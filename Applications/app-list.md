@@ -36,10 +36,8 @@
 <li>WhatsApp (Web App)
 <li>Amazon Music (Web App)
 <li>Grub Customizer
-<li>Microsoft Teams
 <li>ProtonVPN
 <li>Zoom
-<li>Audacity
 <li>Audacity
 <li>Geany
 <li>Geary
