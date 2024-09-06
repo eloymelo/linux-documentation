@@ -68,4 +68,4 @@ Flatpaks (If using Debian):
 ***
 Arch:
 ```bash
-yay -S geany brave-bin obs-studio steam discord spotify vlc libreoffice-fresh timeshift font-manager localsend-bin 1password extension-manager menulibre qbittorrent breeze kdenlive gdm-settings remmina upscayl-bin blanket wine protontricks lutris gimp sublime-text-4 gparted steamtinkerlaunch freedownloadmanager obsidian parabolic grub-customizer proton-vpn-gtk-app zoom audacity geary telegram-desktop goverlay picard openrgb piper 
+yay -S visual-studio-code-bin geany brave-bin obs-studio steam discord spotify vlc libreoffice-fresh timeshift font-manager localsend-bin 1password extension-manager menulibre qbittorrent breeze kdenlive gdm-settings remmina upscayl-bin blanket wine protontricks lutris gimp sublime-text-4 gparted steamtinkerlaunch freedownloadmanager obsidian parabolic grub-customizer proton-vpn-gtk-app zoom audacity geary telegram-desktop goverlay picard openrgb piper 
