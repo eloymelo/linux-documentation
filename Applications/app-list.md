@@ -57,7 +57,11 @@ Debian:
 ```bash
 sudo apt install obs-code steam vlc libreoffice menulibre qbittorrent kdenlive remmina wine protontricks lutris gimp krita gparted grub-customizer audacity geary goverlay picard piper geany
 ```
-Flatpaks (If using Debian):
+Additional .deb packages:
+
+[VSCode](https://code.visualstudio.com/docs/?dv=linux64_deb), [Warsaw](https://cloud.gastecnologia.com.br/bb/downloads/ws/warsaw_setup64.deb), [OpenRGB](https://openrgb.org/releases/release_0.9/openrgb_0.9_amd64_bookworm_b5f46e3.deb), [Obsidian](https://github.com/obsidianmd/obsidian-releases/releases/download/v1.6.7/obsidian_1.6.7_amd64.deb), [Upscayl](https://github.com/upscayl/upscayl/releases/download/v2.11.5/upscayl-2.11.5-linux.deb), [Discord](https://discord.com/api/download?platform=linux&format=deb), [1Password](https://downloads.1password.com/linux/debian/amd64/stable/1password-latest.deb), [LocalSend](https://github.com/localsend/localsend/releases/download/v1.15.4/LocalSend-1.15.4-linux-x86-64.deb), [ProtonVPN](https://protonvpn.com/support/official-linux-vpn-ubuntu/).
+
+Flatpaks:
 
 <li>Flatseal
 <li>Blanket
