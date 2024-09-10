@@ -2,7 +2,11 @@
 
 1. **Enable contrib and non-free sources**
 
-    Using the terminal, edit the following file: **/etc/apt/sources.list** and add the "contrib" and "non-free" sources, or replace with these lines:
+    Using the terminal, edit the following file, add the "contrib" and "non-free" sources, or replace with these lines:
+
+    ```plaintext
+    sudo nano /etc/apt/sources.list
+    ```
 
     ```plaintext
     deb http://deb.debian.org/debian bookworm main contrib non-free non-free-firmware
