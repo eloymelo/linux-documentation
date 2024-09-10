@@ -53,7 +53,7 @@ Or just run:
 
 Debian:
 ```bash
-sudo apt install obs-code steam vlc libreoffice menulibre qbittorrent kdenlive remmina wine protontricks lutris gimp krita gparted grub-customizer audacity geary goverlay picard piper geany
+sudo apt install obs-studio steam vlc libreoffice menulibre qbittorrent kdenlive remmina wine protontricks lutris gimp krita gparted grub-customizer audacity geary goverlay picard piper geany
 ```
 Additional .deb packages:
 
