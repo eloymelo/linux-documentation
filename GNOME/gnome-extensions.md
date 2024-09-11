@@ -1,4 +1,4 @@
-# List of all the extensions that I currently use on my GNOME 46
+# GNOME 46
 
 <li>App Indicator
 <li>Blur My Shell
