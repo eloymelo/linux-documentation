@@ -6,16 +6,16 @@
 sudo pacman -Syu
 ```
 
-2. Install nano (or other text editor)
+2. Install vim (or other text editor)
 
 ```bash
-sudo pacman -S nano git 
+sudo pacman -S vim git 
 ```
 
 3. Open **/etc/pacman.conf** and make the following changes in order to improve the overall experience.
 
 ```bash
-sudo nano /etc/pacman.conf
+sudo vim /etc/pacman.conf
 ```
 
 4. Remove the **#** from **Color** and **ParallelDownloads**. 
@@ -70,7 +70,7 @@ sudo pacman -Sy
 7. Install a desktop environment (if you have installed Arch with the minimal option)
 
 ```bash
-sudo pacman -S gnome gnome-extra
+sudo pacman -S gnome
 ```
 Enable and start GDM (GNOME display manager)
 
@@ -98,7 +98,7 @@ sudo pacman -S p7zip unrar tar rsync git neofetch htop exfat-utils fuse-exfat nt
 Bluetooth:
 
 ```bash
-sudo pacman -S bluez blueman bluez-utils
+sudo pacman -S bluez bluez-utils
 ```
 ```bash
 sudo modprobe btusb
