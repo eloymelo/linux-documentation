@@ -5,7 +5,7 @@
     Using the terminal, edit the following file, add the "contrib" and "non-free" sources, or replace with these lines:
 
     ```plaintext
-    sudo nano /etc/apt/sources.list
+    sudo vim /etc/apt/sources.list
     ```
 
     ```plaintext
@@ -59,10 +59,10 @@
     sudo apt install qemu-system libvirt-daemon-system virt-manager
     ```
 
-    Using `nano`, open `libvirtd.conf` and enable these two lines:
+    Using `vim` (or any other text editor), open `libvirtd.conf` and enable these two lines:
 
     ```bash
-    sudo nano /etc/libvirt/libvirtd.conf
+    sudo vim /etc/libvirt/libvirtd.conf
     ```
 
     ```plaintext
@@ -95,7 +95,7 @@
     Edit `system.conf` and change the default value from 90s to 15s (or 10s):
 
     ```bash
-    sudo nano /etc/systemd/system.conf
+    sudo vim /etc/systemd/system.conf
     ```
     ```plaintext
     DefaultTimeoutStopSec=15s
