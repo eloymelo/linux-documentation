@@ -1,6 +1,6 @@
 # Simple fix for those who are using a keyboard with the US layout and cannot type the "ç".
 
-1. Create a hidden file in your home directory  (**~**)   called ".XCompose.
+1. Create a hidden file in your home directory  (**~**)   called ".XCompose".
 ```bash
 sudo vim .XCompose
 ```
@@ -17,7 +17,7 @@ sudo vim .XCompose
 
 # Optional in order to make it work on KDE
 
-1. Create a hidden file in your home directory  (**~**)   called ".XCompose.
+1. Create a hidden file in your home directory  (**~**)   called ".XCompose".
 ```bash
 sudo vim .XCompose
 ```
