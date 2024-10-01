@@ -8,7 +8,7 @@ sudo apt install ttf-mscorefonts-installer -y
 2. Open or create the **fonts.conf** file:
 
 ```bash
-sudo nano ~/.config/fontconfig/fonts.conf
+sudo vim ~/.config/fontconfig/fonts.conf
 ```
 now paste this setting:
 
