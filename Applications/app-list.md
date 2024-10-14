@@ -45,8 +45,6 @@ sudo dnf install gedit obs-studio steam vlc cheese libreoffice timeshift menulib
 <li>Obsidian
 <li>Parabolic
 
-<br>
-
 ```bash
 sudo flatpak install org.gnome.World.PikaBackup org.signal.Signal com.discordapp.Discord com.spotify.Client org.localsend.localsend_app com.mattjakeman.ExtensionManager io.github.realmazharhussain.GdmSettings com.rafaelmardojai.Blanket md.obsidian.Obsidian org.nickvision.tubeconverter
 ```
