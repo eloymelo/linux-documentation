@@ -44,8 +44,13 @@ sudo dnf group install Multimedia
 ```
 [Source](https://docs.fedoraproject.org/en-US/quick-docs/installing-plugins-for-playing-movies-and-music/)
 
+7. **Enable video thumbnails**
 
-7. **Enable HEIC image support**
+```bash
+sudo dnf install ffmpegthumbnailer
+```
+
+8. **Enable HEIC image support**
 
 ```bash
 sudo dnf install heif-pixbuf-loader
@@ -54,11 +59,11 @@ sudo dnf install heif-pixbuf-loader
 sudo dnf install libheif-freeworld
 ```
 
-8. **Change Hostname of the machine**
+9. **Change Hostname of the machine**
 ```bash
 sudo hostnamectl set-hostname "New_Custom_Name"
 ```
 
-9. **Make fonts look better**
+10. **Make fonts look better**
 
 [Follow this guide under fonts documentation](https://github.com/eloymelo/linux-documentation/blob/main/Fonts/fonts.md)
