@@ -1,6 +1,6 @@
 # A couple of tweaks for a fresh Fedora install
 
-1. **Make DNF faster by add theses lines in `/etc/dnf/dnf.conf`**
+1. **Make DNF faster by adding theses lines in `/etc/dnf/dnf.conf`**
 
 ```plaintext
 # DNF config
