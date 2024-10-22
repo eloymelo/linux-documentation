@@ -2,7 +2,7 @@
 
 **Debian:**
 ```bash
-sudo apt install obs-studio steam vlc libreoffice menulibre qbittorrent kdenlive remmina wine protontricks lutris gimp krita gparted grub-customizer audacity geary goverlay picard piper guvcview chromium
+sudo apt install obs-studio steam vlc libreoffice menulibre qbittorrent kdenlive wine protontricks lutris gimp krita gparted grub-customizer audacity geary goverlay picard piper guvcview chromium
 ```
 **Additional .deb packages:**
 
@@ -18,13 +18,54 @@ sudo apt install obs-studio steam vlc libreoffice menulibre qbittorrent kdenlive
 
 ***
 **Arch:**
+
+**GNOME**:
+
 ```bash
-yay -S vscodium-bin visual-studio-code-bin gedit brave-bin obs-studio steam discord spotify vlc cheese libreoffice-fresh font-manager timeshift localsend-bin 1password extension-manager menulibre qbittorrent breeze kdenlive gdm-settings remmina upscayl-bin blanket wine protontricks lutris gimp gparted steamtinkerlaunch obsidian parabolic grub-customizer proton-vpn-gtk-app audacity geary signal-desktop goverlay picard openrgb piper guvcview chromium firefox
+yay -S brave-bin spotify localsend-bin 1password extension-manager menulibre gdm-settings upscayl-bin protontricks steamtinkerlaunch parabolic proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br
 ```
+
+```bash
+yay -S vscodium-bin
+```
+
+```bash
+yay -S visual-studio-code-bin
+```
+```bash
+sudo pacman -S cheese obs-studio steam discord qbittorrent kdenlive vlc libreoffice-fresh blanket wine font-manager timeshift gedit lutris gimp obsidian network-manager-applet grub-customizer gparted audacity geary signal-desktop goverlay picard openrgb piper chromium firefox guvcview ffmpegthumbs ffmpegthumbnailer kimageformats qt6-imageformats
+```
+
+```bash
+sudo pacman -Rns $(pacman -Qtdq)
+```
+
+**KDE**:
+
+```bash
+yay -S brave-bin localsend-bin 1password upscayl-bin protontricks steamtinkerlaunch media-downloader proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br 
+```
+
+```bash
+yay -S vscodium-bin
+```
+
+```bash
+yay -S visual-studio-code-bin
+```
+
+```bash
+sudo pacman -S cheese obs-studio steam discord qbittorrent kdenlive vlc vorta libreoffice-fresh wine timeshift kate lutris gimp obsidian network-manager-applet grub-customizer audacity signal-desktop goverlay openrgb piper chromium firefox okular ark gwenview spectacle kwalletmanager kalk partitionmanager guvcview-qt kfind ksystemlog elisa kmail kgeography kcolorchooser kclock ffmpegthumbs ffmpegthumbnailer kimageformats qt6-imageformats
+```
+
+```bash
+sudo pacman -Rns $(pacman -Qtdq)
+```
+
 ***
 **Fedora:**
 ```bash
-sudo dnf install gedit obs-studio steam vlc cheese libreoffice timeshift menulibre qbittorrent kdenlive remmina wine protontricks lutris gimp gparted grub-customizer audacity geary goverlay picard openrgb piper guvcview chromium firefox
+sudo dnf install gedit obs-studio steam vlc cheese libreoffice timeshift menulibre qbittorrent kdenlive wine protontricks lutris gimp gparted grub-customizer audacity geary goverlay picard openrgb piper guvcview chromium firefox
 ```
 
 **Additional .rpm packages:**
