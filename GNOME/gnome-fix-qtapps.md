@@ -21,7 +21,7 @@ sudo vim /etc/environment
 
 ```plaintext
 # fix for QT broken themes
-QT_QPA_PLATFORMTHEME=xcb
+QT_QPA_PLATFORM=xcb
 ```
 4. Log out of the session or restart the machine.
 
