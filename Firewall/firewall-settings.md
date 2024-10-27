@@ -29,11 +29,11 @@ sudo ufw allow 53317
 ```
 This will allow localsend to work properly with the ufw rules above.
 
-5. If you are using KDEConnect:
+4. If you are using KDEConnect:
 
 ```bash
 sudo ufw allow 1714:1764/tcp
 sudo ufw allow 1714:1764/udp
 ```
 
-6. Done.
+5. Done.
