@@ -1,4 +1,4 @@
-# Setting up Uncomplicated Firewall (UWF)
+# Setting up Uncomplicated Firewall (UFW)
 
 1. You can install it using your package manager
 
@@ -29,4 +29,11 @@ sudo ufw allow 53317
 ```
 This will allow localsend to work properly with the ufw rules above.
 
-4. Done.
+5. If you are using KDEConnect:
+
+```bash
+sudo ufw allow 1714:1764/tcp
+sudo ufw allow 1714:1764/udp
+```
+
+6. Done.
