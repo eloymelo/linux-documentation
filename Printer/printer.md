@@ -8,7 +8,7 @@ sudo apt install printer-driver-escpr
 ```
 Fedora:
 ```bash
-sudo dnf install epson-inkjet-printer-escpr driver
+sudo dnf install epson-inkjet-printer-escpr
 ```
 Arch:
 ```bash
