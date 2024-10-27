@@ -2,14 +2,11 @@
 
 <li>App Indicator
 <li>Blur My Shell
-<li>Bring out Submenu of Power Button
 <li>Caffeine
 <li>Dash to Dock
-<li>Desktop Icons NG (DING)
 <li>GNOME 4x UI Improvements
 <li>Impatience
 <li>Just Perfection
-<li>Media Controls
 <li>Notification Timeout
 <li>OpenWeather Refined
 <li>QS Tweak Quick Setting Tweaker
@@ -24,7 +21,6 @@
 
 <li>App Indicator
 <li>Blur My Shell
-<li>Bring out Submenu of Power Button
 <li>Caffeine
 <li>GNOME 4x UI Improvements
 <li>Impatience

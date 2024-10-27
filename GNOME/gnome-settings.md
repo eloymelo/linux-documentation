@@ -22,7 +22,7 @@ If I am not mistaken, the default value of the step is 6% and I don't like this 
 
 1. Open the terminal and set the desired value (I like to set at 2%)
 ```plaintext
-gsettings set org.gnome.settings-daemon.plugins.media-keys volume-step 2
+gsettings set org.gnome.settings-daemon.plugins.media-keys volume-step 3
 ```
 2. Check if the changes were applied by running this command:
 ```plaintext

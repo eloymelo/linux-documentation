@@ -1,22 +1,31 @@
 # Simple fix for the broken QT apps theming on GNOME
 
+Debian:
+
 1. Open terminal and type the following
 
 ```bash
-sudo apt install qgnomeplatform-qt5
+sudo apt install qgnomeplatform-solarized-qt5
 ```
+
+2. Arch:
 
 ```bash
-sudo nano /etc/environment
+sudo yay -S qgnomeplatform-solarized-qt5 qgnomeplatform-solarized-qt6
 ```
-2. Then add these lines
+3. Open **`/etc/environment`** and paste the following:
+
+```bash
+sudo vim /etc/environment
+```
+
 ```plaintext
 # fix for QT broken themes
-QT_QPA_PLATFORMTHEME=gnome
+QT_QPA_PLATFORMTHEME=xcb
 ```
-3. Log out of the session or restart the machine.
+4. Log out of the session or restart the machine.
 
-4. Done
+5. Done
 
 # Optional
 
@@ -29,12 +38,4 @@ sudo apt install qt5-style-plugins
 Arch:
 ```bash
 sudo pacman -S qt5-styleplugins
-```
-
-Or
-
-Just add the following under `/etc/environment`
-
-```plaintext
-QT_QPA_PLATFORM=xcb
 ```
