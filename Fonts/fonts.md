@@ -41,7 +41,7 @@ sudo pacman -S font-manager
 ```plaintext 
 Interface Text: Ubuntu
 Document Text: Ubuntu
-Monospace Text: Monospace
+Monospace Text: MesloLGS NF
     
 Rendering (Hinting):
         
