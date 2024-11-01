@@ -22,7 +22,7 @@ sudo apt install obs-studio steam vlc libreoffice menulibre qbittorrent kdenlive
 **GNOME**:
 
 ```bash
-yay -S brave-bin spotify localsend-bin 1password extension-manager menulibre gdm-settings upscayl-bin protontricks steamtinkerlaunch parabolic proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br
+yay -S brave-bin spotify localsend-bin 1password extension-manager menulibre gdm-settings upscayl-bin protontricks steamtinkerlaunch parabolic proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu
 ```
 
 ```bash
@@ -39,11 +39,12 @@ sudo pacman -S cheese obs-studio steam discord qbittorrent kdenlive vlc libreoff
 ```bash
 sudo pacman -Rns $(pacman -Qtdq)
 ```
+***
 
 **KDE**:
 
 ```bash
-yay -S brave-bin localsend-bin 1password upscayl-bin protontricks steamtinkerlaunch media-downloader proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br 
+yay -S brave-bin localsend-bin 1password upscayl-bin protontricks steamtinkerlaunch media-downloader proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu
 ```
 
 ```bash
