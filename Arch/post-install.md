@@ -75,8 +75,7 @@ sudo pacman -S gnome
 Enable and start GDM (GNOME display manager)
 
 ```bash
-sudo systemctl enable gdm
-sudo systemctl start gdm
+sudo systemctl enable gdm && sudo systemctl start gdm
 ```
 
 8. Create user directory folders.
@@ -92,7 +91,7 @@ xdg-user-dirs-update
 9. Install some important tools.
 
 ```bash
-sudo pacman -S p7zip unrar tar rsync git neofetch htop exfat-utils fuse-exfat ntfs-3g flac jasper aria2  
+sudo pacman -S p7zip unrar tar rsync git fastfetch htop exfat-utils fuse-exfat ntfs-3g flac jasper aria2 qemu-full virt-manager
 ```
 
 Bluetooth:
@@ -181,7 +180,7 @@ sudo systemctl enable paccache.timer
 13. Install essential packages.
 
 ```bash
-sudo pacman -S enchant mythes-en ttf-liberation hunspell-en_US ttf-bitstream-vera pkgstats adobe-source-sans-pro-fonts gst-plugins-good ttf-droid ttf-dejavu aspell-en icedtea-web gst-libav ttf-ubuntu-font-family ttf-anonymous-pro jre8-openjdk languagetool libmythes 
+sudo pacman -S enchant mythes-en ttf-liberation hunspell-en_US ttf-bitstream-vera pkgstats adobe-source-sans-pro-fonts gst-plugins-good ttf-droid ttf-dejavu aspell-en icedtea-web gst-libav ttf-ubuntu-font-family ttf-anonymous-pro jre8-openjdk languagetool libmythes hspell hunspell nuspell libvoikko vulkan-radeon
 ```
 
 14. Set up the firewall.
