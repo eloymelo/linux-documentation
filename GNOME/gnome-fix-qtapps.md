@@ -11,7 +11,7 @@ sudo apt install qgnomeplatform-solarized-qt5
 **Arch**:
 
 ```bash
-sudo yay -S qgnomeplatform-solarized-qt5 qgnomeplatform-solarized-qt6
+yay -S qgnomeplatform-solarized-qt5 qgnomeplatform-solarized-qt6
 ```
 2. Edit **`/etc/environment`** and paste the following:
 
