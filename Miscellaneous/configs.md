@@ -11,7 +11,7 @@ sudo pacman -S hspell hunspell nuspell libvoikko
 mkdir -p .local/share/libgedit-gtksourceview-300/styles
 ```
 
-3. Copy and paste the theme file inside the folder we previously created.
+3. Copy and paste the theme file inside the folder previously created.
 
 # Creating an autostart for 1Password
 
