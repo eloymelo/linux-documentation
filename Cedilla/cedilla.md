@@ -2,7 +2,7 @@
 
 1. Create a hidden file in your home directory  (**~**)   called ".XCompose".
 ```bash
-sudo vim .XCompose
+vim .XCompose
 ```
 2. Copy and paste the following:
 
@@ -19,7 +19,7 @@ sudo vim .XCompose
 
 1. Create a hidden file in your home directory  (**~**)   called ".XCompose".
 ```bash
-sudo vim .XCompose
+vim .XCompose
 ```
 2. Copy and paste the following:
 
