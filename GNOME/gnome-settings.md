@@ -20,7 +20,7 @@ gsettings set org.gnome.mutter check-alive-timeout 0
 
 If I am not mistaken, the default value of the step is 6% and I don't like this default value it is too much when I am switching volume using my keyboard. Follow these steps to change the value:
 
-1. Open the terminal and set the desired value (I like to set at 2%)
+1. Open the terminal and set the desired value (I like to set at 3%)
 ```plaintext
 gsettings set org.gnome.settings-daemon.plugins.media-keys volume-step 3
 ```

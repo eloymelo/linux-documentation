@@ -1,4 +1,4 @@
-# GNOME 46
+# GNOME 47
 
 <li>App Indicator
 <li>Blur My Shell
