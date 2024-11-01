@@ -2,18 +2,19 @@
 
 1. Install the Microsoft Fonts.
 
-Arch based (choose one of the following):
+**Arch** based (choose one of the following):
 ```bash
 yay -S ttf-ms-fonts 
 yay -S ttf-ms-win11-auto
 yay -S ttf-ms-win10-auto
 ```
-
-Debian based:
+***
+**Debian** based:
 ```bash    
 sudo apt install ttf-mscorefonts-installer -y
 ```
-Fedora:
+***
+**Fedora**:
 ```bash    
 sudo dnf install curl cabextract xorg-x11-font-utils fontconfig -y
 ```
