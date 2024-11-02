@@ -180,7 +180,7 @@ sudo systemctl enable paccache.timer
 13. Install essential packages.
 
 ```bash
-sudo pacman -S enchant mythes-en ttf-liberation hunspell-en_US ttf-bitstream-vera pkgstats adobe-source-sans-pro-fonts gst-plugins-good ttf-droid ttf-dejavu aspell-en icedtea-web gst-libav ttf-ubuntu-font-family ttf-anonymous-pro jre8-openjdk languagetool libmythes hspell hunspell nuspell libvoikko vulkan-radeon
+sudo pacman -S enchant mythes-en ttf-liberation noto-fonts hunspell-en_US ttf-bitstream-vera pkgstats adobe-source-sans-pro-fonts gst-plugins-good ttf-droid ttf-dejavu aspell-en icedtea-web gst-libav ttf-ubuntu-font-family ttf-anonymous-pro jre8-openjdk languagetool libmythes hspell hunspell nuspell libvoikko vulkan-radeon
 ```
 
 14. Set up the firewall.
