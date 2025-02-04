@@ -5,7 +5,7 @@
 **Debian**:
 
 ```bash
-sudo apt install qgnomeplatform-solarized-qt5
+sudo apt install qgnomeplatform-solarized
 ```
 
 **Arch**:
