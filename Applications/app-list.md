@@ -22,7 +22,7 @@ sudo apt install obs-studio steam vlc libreoffice menulibre qbittorrent kdenlive
 **GNOME**:
 
 ```bash
-yay -S brave-bin spotify localsend-bin 1password extension-manager menulibre gdm-settings upscayl-bin protontricks steamtinkerlaunch parabolic proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu
+yay -S google-chrome brave-bin spotify localsend-bin 1password extension-manager menulibre gdm-settings upscayl-bin protontricks steamtinkerlaunch parabolic proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu oversteer chatbox-bin ollama-cuda parsec-bin    
 ```
 
 ```bash
@@ -33,7 +33,7 @@ yay -S vscodium-bin
 yay -S visual-studio-code-bin
 ```
 ```bash
-sudo pacman -S cheese obs-studio steam discord qbittorrent kdenlive vlc libreoffice-fresh blanket wine font-manager timeshift gedit lutris gimp obsidian network-manager-applet grub-customizer gparted audacity geary signal-desktop goverlay picard openrgb piper chromium firefox guvcview ffmpegthumbs ffmpegthumbnailer kimageformats qt6-imageformats
+sudo pacman -S cheese obs-studio steam discord qbittorrent kdenlive vlc libreoffice-fresh blanket wine font-manager timeshift gedit lutris gimp obsidian network-manager-applet grub-customizer gparted audacity geary signal-desktop goverlay picard openrgb piper chromium firefox guvcview ffmpegthumbs ffmpegthumbnailer kimageformats qt6-imageformats nvtop shotwell
 ```
 
 ```bash
