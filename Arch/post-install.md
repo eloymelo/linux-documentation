@@ -91,7 +91,7 @@ xdg-user-dirs-update
 9. Install some important tools.
 
 ```bash
-sudo pacman -S p7zip unrar tar rsync git fastfetch htop exfat-utils fuse-exfat ntfs-3g flac jasper aria2 qemu-full virt-manager
+sudo pacman -S p7zip unrar tar rsync git fastfetch htop exfat-utils fuse-exfat ntfs-3g flac jasper aria2 qemu-full virt-manager dnsmasq 
 ```
 
 Bluetooth:
@@ -124,22 +124,7 @@ Update grub:
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-10. Install yay and flatpak:
-
-Yay:
-
-```bash
-sudo pacman -S --needed base-devel git
-```
-
-```bash
-git clone https://aur.archlinux.org/yay.git
-```
-
-```plaintext
-cd yay
-makepkg -si
-```
+10. Install Flatpak
 
 Flatpak:
 
@@ -147,17 +132,7 @@ Flatpak:
 sudo pacman -S flatpak
 ```
 
-11. Install **Preload**.
-
-```bash
-yay -S preload
-```
-
-```bash
-sudo systemctl enable preload && sudo systemctl start preload
-```
-
-12. Install **paccache** to automatically clean package cache.
+11. Install **paccache** to automatically clean package cache.
 
 You can check the size of your package cache by running this command:
 
@@ -177,16 +152,54 @@ Enable the service:
 sudo systemctl enable paccache.timer
 ```
 
-13. Install essential packages.
+12. Install NVIDIA drivers.
+
+For standard linux kernel:
+```bash
+sudo pacman -S nvidia
+```
+For linux-lts kernel:
+```bash
+sudo pacman -S nvidia-lts
+```
+
+13. Install yay
+
+Yay:
+
+```bash
+sudo pacman -S --needed base-devel git
+```
+
+```bash
+git clone https://aur.archlinux.org/yay.git
+```
+
+```plaintext
+cd yay
+makepkg -si
+```
+
+14. Install **Preload**.
+
+```bash
+yay -S preload
+```
+
+```bash
+sudo systemctl enable preload && sudo systemctl start preload
+```
+
+15. Install essential packages.
 
 ```bash
 sudo pacman -S enchant mythes-en ttf-liberation noto-fonts hunspell-en_US ttf-bitstream-vera pkgstats adobe-source-sans-pro-fonts gst-plugins-good ttf-droid ttf-dejavu aspell-en icedtea-web gst-libav ttf-ubuntu-font-family ttf-anonymous-pro jre8-openjdk languagetool libmythes hspell hunspell nuspell libvoikko vulkan-radeon
 ```
 
-14. Set up the firewall.
+16. Set up the firewall.
 
 Click [here](https://github.com/eloymelo/linux-documentation/blob/main/Firewall/firewall-settings.md) and follow the steps.
 
-15. Make the fonts look better.
+17. Make the fonts look better.
 
 Click [here](https://github.com/eloymelo/linux-documentation/blob/main/Fonts/fonts.md) and follow the steps.
