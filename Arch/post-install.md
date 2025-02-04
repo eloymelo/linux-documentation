@@ -152,7 +152,7 @@ Enable the service:
 sudo systemctl enable paccache.timer
 ```
 
-12. Install NVIDIA drivers.
+12. Install NVIDIA driver.
 
 For standard linux kernel:
 ```bash
@@ -161,6 +161,12 @@ sudo pacman -S nvidia
 For linux-lts kernel:
 ```bash
 sudo pacman -S nvidia-lts
+```
+Or
+
+For the nvidia-open driver
+```bash
+sudo pacman -S nvidia-open
 ```
 
 13. Install yay
