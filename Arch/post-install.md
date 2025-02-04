@@ -199,7 +199,7 @@ sudo systemctl enable preload && sudo systemctl start preload
 15. Install essential packages.
 
 ```bash
-sudo pacman -S enchant mythes-en ttf-liberation noto-fonts hunspell-en_US ttf-bitstream-vera pkgstats adobe-source-sans-pro-fonts gst-plugins-good ttf-droid ttf-dejavu aspell-en icedtea-web gst-libav ttf-ubuntu-font-family ttf-anonymous-pro jre8-openjdk languagetool libmythes hspell hunspell nuspell libvoikko vulkan-radeon papirus-icon-theme gnome-tweaks gnome-themes-extra
+sudo pacman -S enchant mythes-en ttf-liberation noto-fonts hunspell-en_US ttf-bitstream-vera pkgstats adobe-source-sans-pro-fonts gst-plugins-good ttf-droid ttf-dejavu aspell-en icedtea-web gst-libav ttf-ubuntu-font-family ttf-anonymous-pro jre8-openjdk languagetool libmythes hspell hunspell nuspell libvoikko vulkan-radeon papirus-icon-theme gnome-tweaks gnome-themes-extra noto-fonts-cjk noto-fonts-emoji
 ```
 
 16. Set up the firewall.
