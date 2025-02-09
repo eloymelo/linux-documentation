@@ -49,3 +49,44 @@ Comment=Start 1Password silently at login
 ```bash
 xdg-mime default org.gnome.Nautilus.desktop inode/directory
 ```
+# Tabstrip on Chromium based browsers.
+ 
+```plaintext
+chrome://flags/#scrollable-tabstrip
+``` 
+
+# ProtonGE
+
+1. Go to [ProtonGE github page](https://github.com/GloriousEggroll/proton-ge-custom) and download the latest version.
+
+2. Create the **compatibilitytools.d** directory if it does not exist.
+
+```bash
+mkdir -p ~/.steam/root/compatibilitytools.d
+```
+
+3. After downloading the latest version of ProtonGE, extract it to compatibilitytools.d directory.
+
+```bash
+sudo tar -xf GE-ProtonVERSION.tar.gz -C ~/.steam/root/compatibilitytools.d/
+```
+
+# Make grub boot linux instead of linux-lts as the default kernel
+
+1. 
+
+```bash
+sudo vim /etc/default/grub
+```
+
+2. Add the following line:
+
+```plaintext
+GRUB_TOP_LEVEL="/boot/vmlinuz-linux"
+```
+
+3. Update grub
+
+```bash
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
