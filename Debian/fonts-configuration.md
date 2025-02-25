@@ -51,4 +51,4 @@ sudo dpkg-reconfigure fontconfig-config
 # Regenerate fonts cache
 sudo dpkg-reconfigure fontconfig
 ```
-4. Reboot your pc.
+4. Reboot your PC.

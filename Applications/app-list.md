@@ -22,7 +22,7 @@ sudo apt install obs-studio steam vlc libreoffice menulibre qbittorrent kdenlive
 **GNOME**:
 
 ```bash
-yay -S google-chrome brave-bin spotify localsend-bin 1password extension-manager menulibre gdm-settings upscayl-bin protontricks steamtinkerlaunch parabolic proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu oversteer chatbox-bin ollama-cuda parsec-bin breezex-cursor-theme
+yay -S google-chrome brave-bin spotify localsend-bin 1password extension-manager menulibre gdm-settings upscayl-bin protontricks steamtinkerlaunch parabolic-gtk proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu oversteer chatbox-bin ollama-cuda parsec-bin breezex-cursor-theme
 ```
 
 ```bash
@@ -44,7 +44,7 @@ sudo pacman -Rns $(pacman -Qtdq)
 **KDE**:
 
 ```bash
-yay -S google-chrome brave-bin localsend-bin 1password upscayl-bin protontricks steamtinkerlaunch media-downloader proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu oversteer chatbox-bin ollama-cuda parsec-bin breezex-cursor-theme
+yay -S google-chrome brave-bin localsend-bin 1password upscayl-bin protontricks steamtinkerlaunch media-downloader spotify proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu oversteer chatbox-bin ollama-cuda parsec-bin breezex-cursor-theme
 ```
 
 ```bash

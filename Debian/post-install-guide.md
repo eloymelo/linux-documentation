@@ -73,8 +73,7 @@
     Start and enable the libvirtd service:
 
     ```bash
-    sudo systemctl start libvirtd
-    sudo systemctl enable libvirtd
+    sudo systemctl enable libvirtd && sudo systemctl start libvirtd
     ```
 
     Add your user to the libvirt group by typing this command:
