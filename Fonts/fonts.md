@@ -58,7 +58,7 @@ Using the FREETYPE_PROPERTIES option for bolder fonts (less pixelated):
 
 1. Enter the following command in the terminal:
 ```bash
-sudo nano /etc/environment
+sudo vim /etc/environment
 ```
 2. Now that you are in edit mode, type the following parameters:
 ```plaintext
