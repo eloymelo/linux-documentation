@@ -2,11 +2,11 @@
 
 **Debian:**
 ```bash
-sudo apt install obs-studio steam vlc libreoffice menulibre qbittorrent kdenlive wine protontricks lutris gimp krita gparted grub-customizer audacity geary goverlay picard piper guvcview chromium
+sudo apt install obs-studio steam vlc libreoffice menulibre qbittorrent kdenlive wine protontricks lutris gimp gparted grub-customizer audacity geary goverlay picard piper guvcview chromium timeshift gedit nvtop shotwell gnome-shell-extension-manager hunspell-pt-br hunspell-pt-pt openjdk-17-jdk nvidia-driver-libs:i386 heif-gdk-pixbuf passwd ffmpegthumbnailer
 ```
-**Additional .deb packages:**
+**Additional packages:**
 
-[VSCodium](https://github.com/VSCodium/vscodium/releases/download/1.93.1.24256/codium_1.93.1.24256_amd64.deb), [VSCode](https://code.visualstudio.com/docs/?dv=linux64_deb), [Warsaw](https://cloud.gastecnologia.com.br/bb/downloads/ws/warsaw_setup64.deb), [OpenRGB](https://openrgb.org/releases/release_0.9/openrgb_0.9_amd64_bookworm_b5f46e3.deb), [Obsidian](https://github.com/obsidianmd/obsidian-releases/releases/download/v1.6.7/obsidian_1.6.7_amd64.deb), [Upscayl](https://github.com/upscayl/upscayl/releases/download/v2.11.5/upscayl-2.11.5-linux.deb), [Discord](https://discord.com/api/download?platform=linux&format=deb), [1Password](https://downloads.1password.com/linux/debian/amd64/stable/1password-latest.deb), [LocalSend](https://github.com/localsend/localsend/releases/download/v1.15.4/LocalSend-1.15.4-linux-x86-64.deb), [ProtonVPN](https://protonvpn.com/support/official-linux-vpn-ubuntu/), [Spotify](https://www.spotify.com/br-en/download/linux/).
+[Chrome](https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb), [Signal-Desktop](https://signal.org/download/linux/), [NoiseTorch](https://github.com/noisetorch/NoiseTorch?tab=readme-ov-file), [Oversteer](https://github.com/berarma/oversteer), [Quickemu](https://github.com/berarma/oversteer), [VSCodium](https://github.com/VSCodium/vscodium/releases), [VSCode](https://code.visualstudio.com/docs/?dv=linux64_deb), [Warsaw](https://cloud.gastecnologia.com.br/bb/downloads/ws/warsaw_setup64.deb), [OpenRGB](https://openrgb.org/releases/release_candidate_1.0rc1/openrgb_1.0rc1_amd64_bookworm_1fbacde.deb), [Obsidian](https://github.com/obsidianmd/obsidian-releases/releases/download/v1.6.7/obsidian_1.6.7_amd64.deb), [Upscayl](https://github.com/upscayl/upscayl/releases/download/v2.11.5/upscayl-2.11.5-linux.deb), [Discord](https://discord.com/api/download?platform=linux&format=deb), [1Password](https://downloads.1password.com/linux/debian/amd64/stable/1password-latest.deb), [LocalSend](https://github.com/localsend/localsend/releases/download/v1.15.4/LocalSend-1.15.4-linux-x86-64.deb), [ProtonVPN](https://protonvpn.com/support/official-linux-vpn-ubuntu/), [ProtonMail-Bridge](https://proton.me/mail/bridge), [ProtonPass](https://proton.me/support/set-up-proton-pass-linux),  [Spotify](https://www.spotify.com/br-en/download/linux/).
 
 **Flatpaks:**
 
@@ -14,7 +14,6 @@ sudo apt install obs-studio steam vlc libreoffice menulibre qbittorrent kdenlive
 <li>Blanket
 <li>GDM Settings
 <li>Parabolic
-<li>Pika Backup
 
 ***
 **Arch:**
