@@ -24,7 +24,7 @@ sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore
 
 # Using Ubuntu fonts
 
-1. Install Font-Manager and install Ubuntu font.
+1. Install Font-Manager and install Ubuntu fonts.
 
 Debian:
 ```bash
@@ -38,7 +38,7 @@ Arch:
 ```bash
 sudo pacman -S font-manager
 ```
-2. Open Gnome Tweaks and set the following:
+2. Open GNOME Tweaks and set the following:
 ```plaintext 
 Interface Text: Ubuntu
 Document Text: Ubuntu
@@ -46,24 +46,22 @@ Monospace Text: MesloLGS NF
     
 Rendering (Hinting):
         
-Slight
+Full
 
 Antialiasing:
 
 Subpixel (for LCD screens)
 ```
 
-# Optional
-Using the FREETYPE_PROPERTIES option for bolder fonts (less pixelated):
+# Optional (Highly Recommended)
+Using the FREETYPE_PROPERTIES option for bolder fonts (less pixelated, more like Windows TrueType):
 
 1. Enter the following command in the terminal:
 ```bash
 sudo vim /etc/environment
 ```
-2. Now that you are in edit mode, type the following parameters:
+2. Set the following:
 ```plaintext
 FREETYPE_PROPERTIES="cff:no-stem-darkening=0 autofitter:no-stem-darkening=0"
 ```
-3. Ctrl + O to save it and then Ctrl + X to close the nano editor.
-
-4. Done
+3. Save the changes and reboot the machine
