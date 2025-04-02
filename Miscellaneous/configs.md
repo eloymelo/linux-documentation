@@ -71,7 +71,7 @@ mkdir -p ~/.steam/root/compatibilitytools.d
 sudo tar -xf GE-ProtonVERSION.tar.gz -C ~/.steam/root/compatibilitytools.d/
 ```
 
-# Make grub boot linux instead of linux-lts as the default kernel
+# Make grub boot linux instead of linux-lts as the default kernel (Arch)
 
 1. 
 
