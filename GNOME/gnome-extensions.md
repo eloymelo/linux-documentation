@@ -25,7 +25,6 @@
 <li>Impatience
 <li>Just Perfection
 <li>Notification Timeout
-<li>OpenWeather
 <li>QS Tweak Quick Setting Tweaker
 <li>Rounded Corners
 <li>Show Desktop Button
