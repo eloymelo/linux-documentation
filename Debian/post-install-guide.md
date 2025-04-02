@@ -118,11 +118,13 @@
 
     Follow the steps covered under the [GNOME documentation](https://github.com/eloymelo/linux-documentation/tree/main/GNOME).
 
-10. **Fonts configuration guide**
+10. **Font configuration guides**
 
-    Follow the fonts configuration guide to make your fonts look better and to install Microsoft fonts (needed for some applications and websites to work properly):
+    There are two guides that I've created; I highly recommend going through them to improve font rendering on Linux.
 
-    [Click here to go direct to the guide](https://github.com/eloymelo/linux-documentation/blob/main/Debian/fonts-configuration.md)
+    [Click here to go direct to the guide 1](https://github.com/eloymelo/linux-documentation/blob/main/Debian/fonts-configuration.md)
+
+    [Click here to go direct to the guide 2](https://github.com/eloymelo/linux-documentation/blob/main/Fonts/fonts.md)
 
 11. **Set up firewall**
 
