@@ -85,8 +85,7 @@
     Start the default network and enable autostart:
 
     ```bash
-    sudo virsh net-start default
-    sudo virsh net-autostart --network default
+    sudo virsh net-start default && sudo virsh net-autostart --network default
     ```
 
 7. **Fix slow shutdown**
