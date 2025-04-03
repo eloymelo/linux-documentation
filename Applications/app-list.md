@@ -2,7 +2,7 @@
 
 **Debian:**
 ```bash
-sudo apt install obs-studio steam vlc libreoffice menulibre qbittorrent kdenlive wine protontricks lutris gimp gparted grub-customizer audacity geary goverlay picard piper guvcview chromium timeshift gedit nvtop shotwell gnome-shell-extension-manager hunspell-pt-br hunspell-pt-pt openjdk-17-jdk nvidia-driver-libs:i386 heif-gdk-pixbuf passwd ffmpegthumbnailer libnotify-bin nvidia-driver gamemode
+sudo apt install obs-studio steam vlc libreoffice menulibre qbittorrent kdenlive wine protontricks lutris gimp gparted grub-customizer audacity geary goverlay picard piper guvcview chromium timeshift gedit nvtop shotwell gnome-shell-extension-manager hunspell-pt-br hunspell-pt-pt openjdk-17-jdk nvidia-driver-libs:i386 heif-gdk-pixbuf passwd ffmpegthumbnailer libnotify-bin nvidia-driver gamemode bluetooth bluez-cups bluez-meshd 
 ```
 **Additional packages:**
 
