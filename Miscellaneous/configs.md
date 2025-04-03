@@ -1,4 +1,4 @@
-# Setting up GEDIT custom theme on GNOME 47.
+# Setting up GEDIT custom theme on GNOME 47 (Arch).
 
 1. Install the dependencies.
 
@@ -89,4 +89,17 @@ GRUB_TOP_LEVEL="/boot/vmlinuz-linux"
 
 ```bash
 sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+# Fix Brave installation (Debian)
+
+1. Add **"arch=amd64"** after **"...keyring.gpg"** before (or after, see 2) installing the browser.
+
+```bash
+echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+```
+2. You can also achieve this by running the following and doing the same thing.
+
+```bash
+sudo vim /etc/apt/sources.list.d/brave-browser-release.list
 ```
