@@ -32,7 +32,7 @@ yay -S vscodium-bin
 yay -S visual-studio-code-bin
 ```
 ```bash
-sudo pacman -S cheese obs-studio steam discord qbittorrent kdenlive vlc libreoffice-fresh blanket wine timeshift gedit lutris gimp obsidian network-manager-applet grub-customizer gparted audacity geary signal-desktop goverlay picard openrgb piper chromium guvcview ffmpegthumbs ffmpegthumbnailer kimageformats qt6-imageformats nvtop shotwell
+sudo pacman -S cheese obs-studio steam discord qbittorrent kdenlive vlc libreoffice-fresh blanket wine timeshift gedit lutris gimp obsidian network-manager-applet grub-customizer gparted audacity geary signal-desktop goverlay picard openrgb piper chromium guvcview ffmpegthumbs ffmpegthumbnailer kimageformats qt6-imageformats nvtop shotwell gamemode
 ```
 
 ```bash
