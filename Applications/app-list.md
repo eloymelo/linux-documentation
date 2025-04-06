@@ -43,7 +43,7 @@ sudo pacman -Rns $(pacman -Qtdq)
 **KDE**:
 
 ```bash
-yay -S google-chrome spotify localsend-bin 1password upscayl-bin protontricks steamtinkerlaunch media-downloader spotify proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu oversteer parsec-bin breezex-cursor-theme protonmail-bridge proton-mail-bin proton-pass-bin noisetorch-bin ttf-ms-fonts
+yay -S google-chrome spotify localsend-bin 1password upscayl-bin protontricks steamtinkerlaunch media-downloader proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu oversteer breezex-cursor-theme protonmail-bridge proton-mail-bin proton-pass-bin noisetorch-bin ttf-ms-fonts
 ```
 
 ```bash
@@ -55,7 +55,7 @@ yay -S visual-studio-code-bin
 ```
 
 ```bash
-sudo pacman -S cheese obs-studio steam discord qbittorrent kdenlive vlc vorta libreoffice-fresh wine timeshift kate lutris gimp obsidian network-manager-applet grub-customizer audacity signal-desktop goverlay openrgb piper chromium okular ark gwenview spectacle kwalletmanager kalk partitionmanager guvcview-qt kfind ksystemlog elisa kmail kgeography kcolorchooser kclock ffmpegthumbs ffmpegthumbnailer kimageformats qt6-imageformats
+sudo pacman -S cheese obs-studio steam discord qbittorrent kdenlive vlc vorta libreoffice-fresh wine timeshift kate lutris gimp obsidian network-manager-applet grub-customizer audacity signal-desktop goverlay openrgb piper chromium rclone nvtop filelight gamemode okular ark gwenview spectacle kwalletmanager kalk partitionmanager guvcview-qt kfind ksystemlog elisa kmail kgeography kcolorchooser kclock ffmpegthumbs ffmpegthumbnailer kimageformats qt6-imageformats
 ```
 
 ```bash
