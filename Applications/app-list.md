@@ -31,7 +31,7 @@ sudo apt install obs-studio steam vlc libreoffice qbittorrent kdenlive wine prot
 **GNOME**:
 
 ```bash
-yay -S google-chrome spotify localsend-bin 1password extension-manager menulibre gdm-settings upscayl-bin protontricks steamtinkerlaunch parabolic-gtk proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu oversteer parsec-bin breezex-cursor-theme protonmail-bridge proton-mail-bin proton-pass-bin noisetorch-bin ttf-ms-fonts qgnomeplatform-solarized-qt5 qgnomeplatform-solarized-qt6
+yay -S google-chrome brave-bin spotify localsend-bin 1password extension-manager menulibre gdm-settings upscayl-bin protontricks steamtinkerlaunch parabolic-gtk proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu oversteer parsec-bin breezex-cursor-theme protonmail-bridge proton-mail-bin proton-pass-bin noisetorch-bin ttf-ms-fonts ffmpeg-audio-thumbnailer qgnomeplatform-solarized-qt5 qgnomeplatform-solarized-qt6 
 ```
 
 ```bash
@@ -42,7 +42,7 @@ yay -S vscodium-bin
 yay -S visual-studio-code-bin
 ```
 ```bash
-sudo pacman -S cheese obs-studio steam discord qbittorrent kdenlive vlc libreoffice-fresh blanket wine timeshift gedit lutris gimp obsidian network-manager-applet grub-customizer gparted audacity geary signal-desktop goverlay picard openrgb piper chromium guvcview ffmpegthumbs ffmpegthumbnailer kimageformats qt6-imageformats nvtop shotwell gamemode
+sudo pacman -S cheese obs-studio steam discord qbittorrent kdenlive vlc libreoffice-fresh blanket wine timeshift gedit lutris gimp obsidian network-manager-applet grub-customizer gparted audacity geary signal-desktop goverlay picard openrgb piper chromium guvcview ffmpegthumbs ffmpegthumbnailer kimageformats qt6-imageformats nvtop shotwell gamemode tree
 ```
 
 ```bash
@@ -53,7 +53,7 @@ sudo pacman -Rns $(pacman -Qtdq)
 **KDE**:
 
 ```bash
-yay -S google-chrome spotify localsend-bin 1password upscayl-bin protontricks steamtinkerlaunch media-downloader proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu oversteer breezex-cursor-theme protonmail-bridge proton-mail-bin proton-pass-bin noisetorch-bin ttf-ms-fonts
+yay -S google-chrome brave-bin spotify localsend-bin 1password upscayl-bin protontricks steamtinkerlaunch media-downloader proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br hunspell-pt_pt ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu oversteer breezex-cursor-theme protonmail-bridge proton-mail-bin proton-pass-bin noisetorch-bin ttf-ms-fonts ffmpeg-audio-thumbnailer
 ```
 
 ```bash
@@ -65,7 +65,7 @@ yay -S visual-studio-code-bin
 ```
 
 ```bash
-sudo pacman -S cheese geary obs-studio steam discord qbittorrent kdenlive vlc vorta libreoffice-fresh wine timeshift kate lutris gimp obsidian network-manager-applet grub-customizer audacity signal-desktop goverlay openrgb piper chromium rclone nvtop filelight gamemode okular ark gwenview spectacle kwalletmanager kalk partitionmanager guvcview-qt kfind ksystemlog elisa kmail kgeography kcolorchooser kclock ffmpegthumbs ffmpegthumbnailer kimageformats qt6-imageformats
+sudo pacman -S cheese geary obs-studio steam discord qbittorrent kdenlive vlc vorta libreoffice-fresh wine timeshift kate lutris gimp obsidian network-manager-applet grub-customizer audacity signal-desktop goverlay openrgb piper chromium rclone nvtop filelight gamemode okular ark gwenview spectacle kwalletmanager kalk partitionmanager guvcview-qt kfind ksystemlog elisa kmail kgeography kcolorchooser kclock ffmpegthumbs ffmpegthumbnailer kimageformats qt6-imageformats tree
 ```
 
 ```bash
