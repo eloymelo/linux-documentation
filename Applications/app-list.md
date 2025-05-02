@@ -31,7 +31,7 @@ sudo apt install obs-studio steam vlc libreoffice qbittorrent kdenlive wine prot
 **GNOME**:
 
 ```bash
-yay -S google-chrome brave-bin spotify localsend-bin 1password extension-manager menulibre gdm-settings upscayl-bin protontricks steamtinkerlaunch parabolic-gtk proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu oversteer parsec-bin breezex-cursor-theme protonmail-bridge proton-mail-bin proton-pass-bin noisetorch-bin ttf-ms-fonts ffmpeg-audio-thumbnailer qgnomeplatform-solarized-qt5 qgnomeplatform-solarized-qt6 
+yay -S google-chrome brave-bin spotify localsend-bin 1password extension-manager menulibre gdm-settings upscayl-bin protontricks steamtinkerlaunch parabolic-gtk proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu oversteer parsec-bin breezex-cursor-theme protonmail-bridge proton-mail-bin proton-pass-bin noisetorch-bin ttf-ms-fonts ffmpeg-audio-thumbnailer obs-soundboard qgnomeplatform-solarized-qt5 qgnomeplatform-solarized-qt6 
 ```
 
 ```bash
@@ -53,7 +53,7 @@ sudo pacman -Rns $(pacman -Qtdq)
 **KDE**:
 
 ```bash
-yay -S google-chrome brave-bin spotify localsend-bin 1password upscayl-bin protontricks steamtinkerlaunch media-downloader proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br hunspell-pt_pt ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu oversteer breezex-cursor-theme protonmail-bridge proton-mail-bin proton-pass-bin noisetorch-bin ttf-ms-fonts ffmpeg-audio-thumbnailer
+yay -S google-chrome brave-bin spotify localsend-bin 1password obs-soundboard upscayl-bin protontricks steamtinkerlaunch media-downloader proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br hunspell-pt_pt ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu oversteer breezex-cursor-theme protonmail-bridge proton-mail-bin proton-pass-bin noisetorch-bin ttf-ms-fonts ffmpeg-audio-thumbnailer
 ```
 
 ```bash
