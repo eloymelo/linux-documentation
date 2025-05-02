@@ -53,7 +53,7 @@ sudo pacman -Rns $(pacman -Qtdq)
 **KDE**:
 
 ```bash
-yay -S google-chrome brave-bin spotify localsend-bin 1password obs-soundboard upscayl-bin protontricks steamtinkerlaunch media-downloader proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br hunspell-pt_pt ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu oversteer breezex-cursor-theme protonmail-bridge proton-mail-bin proton-pass-bin noisetorch-bin ttf-ms-fonts ffmpeg-audio-thumbnailer
+yay -S google-chrome brave-bin spotify localsend-bin 1password obs-soundboard upscayl-bin protontricks steamtinkerlaunch parabolic-qt media-downloader proton-vpn-gtk-app hunspell-en_gb hunspell-pt-br hunspell-pt_pt ttf-meslo-nerd-font-powerlevel10k warsaw-bin quickemu oversteer breezex-cursor-theme protonmail-bridge proton-mail-bin proton-pass-bin noisetorch-bin ttf-ms-fonts ffmpeg-audio-thumbnailer
 ```
 
 ```bash
